@@ -74,9 +74,9 @@
             &nbsp; &nbsp;
             <form class="form-inline my-2 my-lg-0">
                 <span class="text-white"><?php
-                                            if (!empty($_SESSION['user'])) {
-                                                echo "User : " . $_SESSION['user']['name'];
-                                            } ?>&nbsp;&nbsp;</span>
+                                        if (!empty($_SESSION['user'])) {
+                                            echo "User : " . $_SESSION['user']['name'];
+                                        } ?>&nbsp;&nbsp;</span>
                 <?php if (isset($user)) { ?>
                     <input class="btn btn-sm btn-outline-warning my-2 my-sm-0" type="submit" name="page" value="Logout">
                 <?php } ?>

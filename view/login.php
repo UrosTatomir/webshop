@@ -99,7 +99,6 @@
                 <?php
             } ?>
             </div>
-
         </div>
     <?php if(isset($register)&&$register==1){ ?>
         <div class="container col-4 mb-5 p-5 text-center bg-dark text-white">

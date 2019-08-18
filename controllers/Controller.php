@@ -165,7 +165,7 @@ class Controller{
         // echo"<br>";
         // var_dump($_SESSION['cart']);
         if(!empty($_SESSION['cart'])){
-          foreach($_SESSION['cart'] as $item =>$it){ //posto je korpa niz nizova moramou foreach petlju ubacimo kljuc i vrednost kako bi rastavili korpu na pojedinacne nizove tj proizvode i kako bi nasli gde se id proizvoda iz korpe slaze  sa brojem id koji je stigao ovde
+          foreach($_SESSION['cart'] as $item =>$it){ //posto je korpa niz nizova moramo u foreach petlju ubacimo kljuc i vrednost kako bi rastavili korpu na pojedinacne nizove tj proizvode i kako bi nasli gde se id proizvoda iz korpe slaze  sa brojem id koji je stigao ovde
             //   var_dump($it);
             //   echo"<br>";
             //   var_dump($_SESSION['cart']);
